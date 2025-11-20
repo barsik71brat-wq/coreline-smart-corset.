@@ -1,0 +1,1 @@
+Basic assembly instructions and notes (placeholder).

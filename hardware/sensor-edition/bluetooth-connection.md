@@ -1,0 +1,1 @@
+BLE pairing and data channels (placeholder).

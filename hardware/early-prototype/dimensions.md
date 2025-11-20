@@ -1,0 +1,1 @@
+Dimensions and fitting guidelines (placeholder).

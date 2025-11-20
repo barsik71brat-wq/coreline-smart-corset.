@@ -1,0 +1,1 @@
+Electronics BOM and schematic notes (placeholder).
