@@ -2,80 +2,44 @@
 
 ## Redefining posture — for sport, work, and everyday life.
 
-CORELINE is a next-generation spinal support system designed to reduce back strain, improve posture, and support healthy movement in everyday life, sports, and work environments.
-
-This project combines biomechanics, advanced materials, and future-ready wearable technology to create a lightweight, breathable, and adaptive corset that distributes spinal load naturally — without rigid braces or forced immobilization.
+CORELINE is an open-development project focused on creating a **next-generation spinal support system** that combines biomechanics, advanced materials, and future smart integration.
 
 ---
 
-## Why CORELINE exists
+## Mission
 
-Millions of people experience chronic or episodic back pain due to:
-- prolonged sitting and office work
-- physical labor and repetitive strain
-- sports and fitness activities
-- poor posture habits formed over time
-
-Most existing solutions are either:
-- too rigid and uncomfortable
-- medically intimidating
-- unsuitable for daily or active use
-
-CORELINE is designed as a **modern alternative**: supportive, discreet, breathable, and adaptable.
+Our mission is to develop an adaptive spinal support system that improves posture, reduces unnecessary spinal load, and empowers healthier movement — built transparently and collaboratively.
 
 ---
 
-## Project overview
+## What Is CORELINE?
 
-CORELINE Smart Spine Corset is an open-development hardware and software project focused on biomechanically optimized spinal support.
+CORELINE Smart Corset is a lightweight, breathable, and modular spinal support device designed to:
 
-### Key design principles:
-- Natural load redistribution across lumbar and thoracic regions
-- Lightweight, breathable, skin-friendly materials
-- Modular architecture for future sensor integration
-- Comfort suitable for all-day wear
-- Usable for medical, lifestyle, and sports contexts
+- Support lumbar and thoracic alignment
+- Reduce fatigue from prolonged sitting or standing
+- Assist posture during daily activity and sport
+- Evolve into a smart wearable platform over time
 
-The initial version focuses on **passive biomechanical support**.  
-Future versions will introduce optional smart modules for posture analytics and personalized feedback via mobile applications.
+The system works mechanically first — sensors and software are optional future layers, not dependencies.
 
 ---
 
-## What this repository contains
+## Project Status
 
-- Product documentation and biomechanical concepts
-- Materials and component research
-- Hardware prototypes and design evolution
-- Roadmap and development log
-- Research references
-- Media assets and renders
-- Software architecture (planned mobile apps and APIs)
+CORELINE is currently in the **prototype and validation phase**.
 
----
+This repository serves as:
+- Technical documentation hub
+- Open design reference
+- Development log
+- Community collaboration base
 
-## Open development & transparency
-
-CORELINE follows an open documentation approach to ensure transparency and community trust.
-
-This repository represents:
-- real development progress
-- design decisions and trade-offs
-- future roadmap and funding allocation logic
+Funding is being raised via Indiegogo to support further development and production readiness.
 
 ---
 
-## Indiegogo campaign
-
-We are preparing an Indiegogo campaign to fund:
-- advanced prototyping
-- biomechanical testing
-- material validation
-- pilot manufacturing
-- certification preparation
-
-Funding goal: **$100,000 USD**
-
-The campaign is part of transforming CORELINE from a functional prototype into a production-ready product.
+## Repository Structure
 
 ---
 
