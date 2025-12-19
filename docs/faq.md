@@ -178,4 +178,4 @@ Updates will be shared via:
 ## How can I contact the team?
 
 Project lead: **Ruslan Ibatulov**  
-Email: barsik71brat@gmail.com
+Email: coreline.team@mail.com
