@@ -1,3 +1,1 @@
-media/
-└── photos/
-    └── coreline-concept-render.png
+
