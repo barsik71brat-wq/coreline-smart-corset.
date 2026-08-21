@@ -1,1 +1,3 @@
-Photo placeholder.
+media/
+└── photos/
+    └── coreline-concept-render.png
