@@ -1,133 +1,138 @@
 # Project Roadmap
 
-This roadmap outlines the current development plan for the CORELINE Smart Spine Corset.
+## CORELINE Smart Corset
 
-All timelines represent estimated targets based on current information and are subject to change as development progresses.
+This roadmap describes the planned development path for the CORELINE wearable spinal-support platform.
+
+CORELINE is currently an **R&D-stage project**. The roadmap is therefore organized around technical maturity, measurable validation, manufacturing readiness, and evidence-based decision gates rather than fixed commercial launch dates.
+
+> **Important:** Future phases represent development objectives, not commitments. Scope, sequencing, timelines, and technical decisions may change as prototype data becomes available.
 
 ---
 
-## Phase 1 — Prototype refinement and validation
+# Roadmap Principles
+
+CORELINE development follows several core principles:
+
+1. **Mechanical function before electronics**
+2. **Measurement before performance claims**
+3. **Prototype evidence before manufacturing scale-up**
+4. **Safety and repeatability before commercialization**
+5. **Regulatory assessment based on final intended use**
+6. **Documented decisions and traceable design changes**
+
+The roadmap uses stage gates so that progression to the next phase depends on evidence from the previous phase.
+
+---
+
+# Development Overview
+
+| Phase | Focus | Status |
+|---|---|---|
+| Phase 1 | Requirements & Architecture | In progress |
+| Phase 2 | Prototype Development | Planned |
+| Phase 3 | Engineering Validation | Planned |
+| Phase 4 | Design for Manufacturing | Planned |
+| Phase 5 | Pilot Production | Planned |
+| Phase 6 | Product Readiness Assessment | Planned |
+| Future | Sensors, software & advanced research | Exploratory |
+
+Statuses should be updated only when supporting development records are available.
+
+---
+
+# Phase 1 — Requirements & Architecture
 
 **Status:** In progress
 
-Goals:
-- refine ergonomic design
-- evaluate material combinations
-- improve comfort and fit
-- validate biomechanical assumptions
+## Objective
 
-Activities:
-- iterative prototype adjustments
-- internal wear testing
-- feedback-driven improvements
-- documentation updates
+Establish a technically coherent product architecture and define measurable engineering requirements for the passive wearable system.
+
+## Key Activities
+
+- define intended product functions;
+- document system boundaries;
+- define mechanical support objectives;
+- establish preliminary fit and sizing requirements;
+- evaluate candidate material classes;
+- define structural layer functions;
+- identify adjustment and tensioning concepts;
+- identify foreseeable prototype hazards;
+- establish initial test methodology; and
+- document assumptions requiring validation.
+
+## Engineering Outputs
+
+Expected outputs include:
+
+- system architecture;
+- preliminary requirements;
+- component taxonomy;
+- candidate material matrix;
+- preliminary sizing strategy;
+- prototype configuration definitions;
+- initial risk register; and
+- test-plan framework.
+
+## Exit Criteria
+
+Phase 1 may be considered complete when:
+
+- primary product functions are documented;
+- candidate architecture is sufficiently defined for prototype construction;
+- major assumptions are identified;
+- prototype configurations can be reproduced from documentation; and
+- initial test methods have been defined.
+
+Relevant documentation:
+
+- [`product-overview.md`](product-overview.md)
+- [`biomechanics-and-design.md`](biomechanics-and-design.md)
+- [`materials-and-components.md`](materials-and-components.md)
 
 ---
 
-## Phase 2 — Advanced prototyping and testing
+# Phase 2 — Prototype Development
 
 **Status:** Planned
 
-Goals:
-- develop advanced functional prototypes
-- conduct extended wear tests
-- assess durability and long-term comfort
-- validate support effectiveness
+## Objective
 
-Activities:
-- multi-material prototype builds
-- stress and movement simulations
-- user testing across multiple body types
-- refinement of adjustment mechanisms
+Build and compare physical prototype configurations to determine whether the proposed architecture produces useful and repeatable mechanical behavior.
 
----
+## Key Activities
 
-## Phase 3 — Pre-production engineering
+- construct multiple prototype configurations;
+- compare structural materials;
+- evaluate support-element geometries;
+- test different textile architectures;
+- evaluate tensioning mechanisms;
+- investigate ventilation and comfort layers;
+- refine attachment methods;
+- evaluate basic fit across representative body geometries; and
+- document prototype revisions.
 
-**Status:** Planned
+## Prototype Variables
 
-Goals:
-- prepare manufacturing-ready designs
-- finalize material specifications
-- optimize assembly processes
-- evaluate tooling requirements
+Variables may include:
 
-Activities:
-- design for manufacturability (DFM)
-- supplier communication and sourcing
-- cost optimization
-- quality control planning
+- support-element stiffness;
+- support-element geometry;
+- textile elasticity;
+- panel geometry;
+- strap configuration;
+- tension range;
+- closure architecture;
+- liner thickness;
+- ventilation structure; and
+- component placement.
 
----
+Each prototype should have a unique revision identifier.
 
-## Phase 4 — Pilot production
+Example:
 
-**Status:** Planned
-
-Goals:
-- produce a limited pilot batch
-- validate manufacturing workflow
-- perform final quality checks
-- prepare packaging and logistics
-
-Activities:
-- small-batch manufacturing
-- quality assurance testing
-- packaging prototyping
-- logistics planning
-
----
-
-## Phase 5 — Certification and compliance preparation
-
-**Status:** Planned
-
-Goals:
-- assess regulatory requirements
-- prepare compliance documentation
-- ensure product safety standards
-
-Activities:
-- material safety evaluations
-- labeling and documentation preparation
-- compliance strategy finalization
-
----
-
-## Phase 6 — Fulfillment and delivery
-
-**Status:** Planned
-
-Goals:
-- begin fulfillment to backers
-- collect post-delivery feedback
-- prepare next production cycle
-
-Activities:
-- logistics coordination
-- shipment execution
-- user feedback collection
-- post-launch support
-
----
-
-## Future development
-
-Beyond initial fulfillment, future development may include:
-- optional smart sensor modules
-- mobile application integration
-- advanced data analytics
-- expanded product variants
-
-These features are not required for core functionality and will be developed independently as optional enhancements.
-
----
-
-## Transparency commitment
-
-Development progress, challenges, and adjustments will be shared openly through:
-- Indiegogo updates
-- GitHub documentation
-- official communication channels
-
-Our goal is to build CORELINE responsibly, transparently, and sustainably.
+```text
+CL-PROT-A01
+CL-PROT-A02
+CL-PROT-B01
