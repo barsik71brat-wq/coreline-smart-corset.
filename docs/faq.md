@@ -1,181 +1,81 @@
 # Frequently Asked Questions (FAQ)
 
+This FAQ describes the current CORELINE concept and development direction.
+
+CORELINE is currently in the **prototype and validation phase**. Product specifications, materials, features, and intended use may change as testing progresses.
+
 ---
 
-## What is CORELINE Smart Spine Corset?
+## What is CORELINE?
 
-CORELINE Smart Spine Corset is a wearable spinal support system designed to assist posture and reduce excessive mechanical strain on the spine during daily activities, work, and light to moderate physical movement.
+CORELINE is an open-development wearable spinal support concept designed around posture assistance, comfort, mobility, and everyday use.
 
-It is not a rigid medical brace, but a biomechanically informed support garment intended for comfortable, extended wear.
+The project explores a lightweight and adjustable support architecture intended to provide distributed support across the lumbar and thoracic regions while allowing natural movement.
+
+CORELINE is currently under development and should not be considered a finished commercial product.
 
 ---
 
 ## Is CORELINE a medical device?
 
-No. CORELINE is **not classified as a medical device** and does not replace medical treatment, diagnosis, or professional therapy.
+CORELINE is currently being developed as a wearable support product and is **not presented as a medical device or medical treatment**.
 
-It is designed as a **supportive and preventative solution** for posture assistance and everyday spinal comfort.
+The project does not claim to diagnose, treat, cure, or prevent any disease or medical condition.
 
-Users with diagnosed medical conditions should consult a healthcare professional before use.
+Future regulatory requirements and product classification will be evaluated as the design, intended use, and target markets are finalized.
 
----
-
-## Who is CORELINE designed for?
-
-CORELINE is suitable for:
-- Office workers and remote professionals
-- Individuals experiencing posture-related discomfort
-- Physically active people and athletes
-- Users seeking preventative spinal support
-- People looking for improved posture awareness
-
-It is not intended for acute injuries or post-surgical rehabilitation without medical supervision.
+Anyone with an existing medical condition, injury, persistent pain, or post-surgical requirements should seek advice from a qualified healthcare professional before using any spinal support product.
 
 ---
 
-## How does CORELINE work?
+## Who is CORELINE being designed for?
 
-CORELINE works by:
-- providing distributed support across lumbar and thoracic regions
-- encouraging neutral spinal alignment
-- reducing peak pressure points
-- supporting natural movement rather than restricting it
+The current design direction focuses on people who may benefit from comfortable, adjustable posture support during everyday activities, including:
 
-The design assists the body without forcing immobilization or excessive compression.
+- desk and office work
+- prolonged sitting or standing
+- everyday movement
+- light physical activity
+- situations where additional postural awareness may be useful
+
+Specific use cases will be refined through prototype testing and validation.
+
+CORELINE is not currently intended for treatment of injuries or post-surgical rehabilitation.
+
+---
+
+## How is CORELINE intended to work?
+
+The CORELINE concept is based on several design principles:
+
+- distributed support rather than rigid immobilization
+- adjustable support intensity
+- lumbar and thoracic support
+- preservation of natural movement
+- breathable and wearable construction
+- modular architecture
+
+The goal is to assist posture without forcing the body into a fixed position.
+
+These principles are currently being evaluated through prototype development and future testing.
 
 ---
 
 ## Does CORELINE weaken back muscles?
 
-No. CORELINE is specifically designed to **avoid muscle dependency**.
+This has not yet been established through clinical or biomechanical validation.
 
-Unlike rigid braces, it allows natural muscle engagement while offering external support where needed. Users can adjust support intensity based on activity level.
+CORELINE is being designed specifically to avoid rigid immobilization and excessive dependency on external support. The concept aims to preserve natural movement and muscle engagement while providing adjustable assistance.
 
----
-
-## Can I wear CORELINE all day?
-
-CORELINE is designed for extended daily use. Breathable materials and ergonomic design help maintain comfort during prolonged wear.
-
-However, individual comfort may vary. Users are encouraged to gradually increase wear time and adjust fit as needed.
+The effect of the final product on muscle activity will require appropriate testing before definitive claims can be made.
 
 ---
 
-## Is CORELINE suitable for sports and exercise?
+## Can CORELINE be worn all day?
 
-CORELINE is suitable for:
-- light to moderate physical activity
-- fitness training
-- warm-ups and recovery sessions
+Extended everyday wear is one of the design goals, but safe and comfortable wear duration has not yet been formally established.
 
-It is not intended for high-impact or extreme sports unless explicitly validated in future testing phases.
+Prototype testing will be used to evaluate:
 
----
-
-## Does CORELINE include electronics or sensors?
-
-The initial version of CORELINE is a **purely passive support system** with no electronics or sensors.
-
-The design includes optional architecture for **future modular smart components**, such as posture monitoring sensors and mobile app integration. These features are not required for basic functionality.
-
----
-
-## Will there be a mobile app?
-
-A mobile application is planned for future iterations as an optional enhancement.
-
-The core product does not depend on software or electronics and functions independently.
-
----
-
-## How is CORELINE different from existing posture correctors?
-
-CORELINE differs by:
-- focusing on load redistribution rather than forced posture correction
-- prioritizing comfort and breathability
-- avoiding rigid structures
-- supporting movement instead of restricting it
-- being designed for real-world, daily use
-
----
-
-## What materials are used?
-
-CORELINE uses a combination of:
-- advanced breathable mesh textiles
-- flexible reinforcement zones
-- adjustable tension components
-
-Future versions may evaluate advanced materials such as thermoregulating fabrics or high-performance composites, subject to testing and validation.
-
----
-
-## Is CORELINE adjustable?
-
-Yes. CORELINE includes adjustable elements that allow users to customize fit and support intensity based on body type and activity level.
-
----
-
-## What sizes will be available?
-
-Sizing options are currently under development.
-
-Our goal is to offer a range of sizes suitable for different body types, with clear fitting guidance provided before product release.
-
----
-
-## When will CORELINE be available?
-
-CORELINE is currently in the **prototype and development stage**.
-
-The Indiegogo campaign aims to fund:
-- advanced prototyping
-- material validation
-- biomechanical testing
-- pilot manufacturing
-
-Estimated timelines will be shared in the project roadmap.
-
----
-
-## How will the funds be used?
-
-Funds raised through Indiegogo will be allocated to:
-- product development and testing
-- material sourcing and validation
-- tooling and pilot production
-- certifications and compliance preparation
-
-Full transparency will be maintained through project updates.
-
----
-
-## Will CORELINE be open-source?
-
-CORELINE follows an open documentation approach.
-
-Design concepts, research references, and development progress are shared publicly. Certain manufacturing details may remain proprietary to ensure product viability.
-
----
-
-## Can CORELINE help with back pain?
-
-CORELINE is designed to support posture and reduce strain, which may improve comfort for some users.
-
-It does not claim to treat, cure, or prevent medical conditions. Individual results may vary.
-
----
-
-## How can I stay updated?
-
-Updates will be shared via:
-- Indiegogo campaign updates
-- GitHub repository
-- Official social media channels
-
----
-
-## How can I contact the team?
-
-Project lead: **Ruslan Ibatulov**  
-Email: coreline.team@mail.com
+- comfort
+- fit
