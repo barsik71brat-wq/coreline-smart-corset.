@@ -1,339 +1,572 @@
 # Materials & Components
 
-## Design Philosophy
+## Overview
 
-CORELINE Smart Corset is designed as a **lightweight, modular spinal support system** that combines modern biomechanics, advanced textile engineering, and future-ready hardware architecture.
+CORELINE Smart Corset is being developed as a lightweight, modular torso-support
+platform intended to combine controlled mechanical support, freedom of movement,
+wearability, and a pathway toward future sensing and electronics integration.
 
-The primary design goals for materials and components are:
+This document describes the current material architecture, candidate component
+technologies, and areas under investigation.
 
-- Optimal spinal load redistribution without rigid immobilization
-- High breathability and long-term comfort for daily wear
-- Durability under repeated mechanical stress
-- Modularity for future sensor and electronics integration
-- Scalability for mass production
-
-Rather than relying on traditional heavy orthopedic materials, CORELINE uses a **layered hybrid structure**, where each layer performs a specific biomechanical and functional role.
-
----
-
-## Structural Layer System
-
-The corset is composed of multiple functional layers working together:
-
-### 1. External Load Distribution Layer
-
-**Function:**  
-- Evenly distributes mechanical forces across the torso  
-- Prevents localized pressure points  
-- Maintains overall corset shape during movement  
-
-**Proposed materials:**
-- High-tenacity woven polyester or nylon (Cordura-class fabrics)
-- Optional aramid-reinforced zones (Kevlar-blend) for high-stress regions
-- Abrasion-resistant polyurethane coating in wear-prone areas
-
-**Why:**  
-These materials are widely used in performance sports gear and medical braces due to their strength-to-weight ratio and longevity.
+> **Development status**
+>
+> The materials and components described below include both baseline design
+> candidates and research-stage options. Final material selection will depend on
+> prototype testing, mechanical characterization, comfort evaluation,
+> manufacturability, supplier availability, cost, and applicable regulatory
+> requirements.
+>
+> The current prototype concept is intended for non-medical wellness and
+> engineering evaluation. No therapeutic or clinical performance is implied by
+> this document.
 
 ---
 
-### 2. Biomechanical Support Framework
+## Design Objectives
 
-**Function:**  
-- Provides controlled spinal guidance  
-- Supports lumbar and thoracic regions  
-- Allows dynamic movement instead of rigid fixation  
+Material and component selection is guided by the following engineering goals:
 
-**Proposed components:**
-- Flexible polymer support stays (TPU or PEEK-based)
-- Carbon fiber composite inserts (selective zones only)
-- Spring-steel micro-lamellae for adaptive resistance
+- Distribute mechanical loads across the torso without creating unnecessary
+  rigid immobilization
+- Provide controlled lumbar and thoracic support
+- Preserve functional movement during everyday activity
+- Minimize localized pressure concentrations
+- Maintain breathability and thermal comfort during extended wear
+- Withstand repeated loading, flexing, tensioning, and adjustment cycles
+- Support modular replacement and repair where practical
+- Provide defined integration pathways for future sensors and electronics
+- Remain compatible with scalable manufacturing processes
 
-**Key principle:**  
-CORELINE avoids full rigidity. Instead, it uses **progressive resistance**, allowing natural motion while reducing harmful spinal loading.
-
----
-
-### 3. Adaptive Compression Layer
-
-**Function:**  
-- Applies adjustable compression
-- Enhances proprioceptive feedback
-- Stabilizes posture without discomfort
-
-**Proposed materials:**
-- Elastic warp-knit fabrics (nylon/spandex blends)
-- Medical-grade elastomers with controlled stretch ratios
-- Variable compression zones via zonal weaving
-
-**Adjustment mechanisms:**
-- Mechanical tensioning straps
-- Low-profile hook-and-loop systems
-- Future-ready dial or micro-ratchet systems (planned iteration)
+CORELINE therefore uses a **layered functional architecture** rather than relying
+on a single rigid shell or structural material.
 
 ---
 
-### 4. Internal Comfort & Breathability Layer
+# Structural Architecture
 
-**Function:**  
-- Skin contact comfort
-- Moisture control
-- Heat dissipation during long wear
+The proposed corset architecture consists of four primary functional layers.
 
-**Proposed materials:**
-- 3D spacer mesh textiles
-- Bamboo fiber blends or TENCEL™ Lyocell
-- Antimicrobial-treated microfiber linings
+## 1. External Load-Distribution Layer
 
-**Ventilation strategy:**
-- Vertical airflow channels
-- Mesh perforation in heat-prone zones
-- Passive convection-assisted air circulation
+### Function
 
----
+The external layer is intended to:
 
-## Advanced Thermal & Weight Reduction Concepts (R&D)
+- distribute tensile and mechanical loads across the torso;
+- reduce localized pressure concentrations;
+- maintain the overall geometry of the garment during movement; and
+- provide abrasion resistance for underlying components.
 
-CORELINE is actively researching the feasibility of incorporating **next-generation materials**:
+### Candidate materials
 
-### Aerogel-Enhanced Inserts (Experimental)
-- Ultra-light thermal regulation
-- Potential use in thin insulating zones
-- Requires cost and durability validation
+Baseline candidates include:
 
-### Graphene-Infused Textiles (Exploratory)
-- Enhanced tensile strength
-- Antibacterial properties
-- Potential for future sensor conductivity
+- high-tenacity woven polyester;
+- high-tenacity nylon;
+- abrasion-resistant technical textiles;
+- localized polyurethane or comparable protective coatings.
 
-These materials are **not part of the initial production version**, but remain under evaluation for later iterations.
+Higher-strength reinforcement fibers may be evaluated selectively where testing
+demonstrates a meaningful performance advantage.
 
----
+### Engineering considerations
 
-## Sensor & Electronics Integration (Future Architecture)
+Material selection should be based on measurable properties including:
 
-Although the initial CORELINE version operates **without active sensors**, the design includes **pre-engineered integration pathways**:
+- tensile strength;
+- tear resistance;
+- abrasion resistance;
+- flex fatigue;
+- dimensional stability;
+- moisture response;
+- washability;
+- skin compatibility; and
+- mass per unit area.
 
-- Internal routing channels for wiring
-- Modular sensor mounting points
-- Detachable electronics compartments
-- EMI-safe material separation zones
-
-Planned sensor types (future editions):
-- IMU posture sensors
-- Pressure distribution sensors
-- Wear-time and movement analytics modules
-
-This ensures CORELINE evolves as a **platform**, not a one-off product.
+Aramid reinforcement is considered an optional design feature rather than a
+baseline requirement.
 
 ---
 
-## Sustainability & Manufacturing Considerations
+## 2. Biomechanical Support Framework
 
-CORELINE prioritizes:
+### Function
 
-- Recyclable polymers where possible
-- Minimal material waste through pattern optimization
-- Supplier preference for certified textile manufacturers
-- Repairability over disposable construction
+The structural framework is intended to provide controlled support while allowing
+functional torso movement.
 
-Manufacturing methods under evaluation:
-- Industrial textile lamination
-- Injection-molded polymer components
-- Modular assembly to reduce tooling costs
+Primary objectives include:
 
----
+- lumbar and thoracic support;
+- progressive resistance to undesirable deformation;
+- controlled flexion rather than complete rigid fixation; and
+- distribution of structural forces into the surrounding textile system.
 
-## Safety & Compliance Outlook
+### Candidate components
 
-Target compliance frameworks (future certification phase):
+Technologies under evaluation include:
 
-- ISO 13485 (Medical Devices – Quality Management)
-- ISO 10993 (Biocompatibility)
-- CE marking (EU)
-- FDA Class I / II pathway assessment (USA)
+- flexible thermoplastic support stays;
+- TPU-based structural elements;
+- other engineering thermoplastics where justified by testing;
+- spring-steel or stainless-steel flexible stays;
+- localized fiber-composite reinforcement.
 
-Initial prototypes are intended for **non-medical wellness use**, with medical certification planned after validation studies.
+### Material-selection principle
 
----
+The framework should use the **minimum stiffness required to achieve the target
+mechanical response**.
 
-## Summary
+Excessive rigidity can reduce comfort and mobility and may increase localized
+interface pressure. For this reason, structural components should be selected
+using prototype measurements rather than material stiffness alone.
 
-CORELINE Smart Corset materials are selected not for novelty, but for **measurable biomechanical performance, comfort, and future scalability**.
+### PEEK and carbon-fiber components
 
-This materials architecture enables:
-- Daily wear without fatigue
-- Athletic movement without restriction
-- Long-term spinal support without dependence
-- Seamless evolution toward smart wearable functionality
+PEEK-based and carbon-fiber composite components remain optional engineering
+candidates.
 
-CORELINE is not just a corset — it is a **next-generation spinal support system** built on modern material science.# Materials & Components
+Their use should require evidence that their mechanical, thermal, weight, or
+durability advantages justify:
 
-## Design Philosophy
+- increased material cost;
+- more complex manufacturing;
+- reduced field repairability; and
+- additional quality-control requirements.
 
-CORELINE Smart Corset is designed as a **lightweight, modular spinal support system** that combines modern biomechanics, advanced textile engineering, and future-ready hardware architecture.
-
-The primary design goals for materials and components are:
-
-- Optimal spinal load redistribution without rigid immobilization
-- High breathability and long-term comfort for daily wear
-- Durability under repeated mechanical stress
-- Modularity for future sensor and electronics integration
-- Scalability for mass production
-
-Rather than relying on traditional heavy orthopedic materials, CORELINE uses a **layered hybrid structure**, where each layer performs a specific biomechanical and functional role.
+They are **not assumed to be necessary for the baseline product**.
 
 ---
 
-## Structural Layer System
+## 3. Adaptive Compression Layer
 
-The corset is composed of multiple functional layers working together:
+### Function
 
-### 1. External Load Distribution Layer
+The compression layer provides adjustable circumferential tension and helps
+couple the structural framework to the body.
 
-**Function:**  
-- Evenly distributes mechanical forces across the torso  
-- Prevents localized pressure points  
-- Maintains overall corset shape during movement  
+Design objectives include:
 
-**Proposed materials:**
-- High-tenacity woven polyester or nylon (Cordura-class fabrics)
-- Optional aramid-reinforced zones (Kevlar-blend) for high-stress regions
-- Abrasion-resistant polyurethane coating in wear-prone areas
+- adjustable compression;
+- stable positioning during movement;
+- distributed rather than point loading;
+- comfortable interface pressure; and
+- repeatable adjustment.
 
-**Why:**  
-These materials are widely used in performance sports gear and medical braces due to their strength-to-weight ratio and longevity.
+### Candidate materials
 
----
+Potential textile systems include:
 
-### 2. Biomechanical Support Framework
+- nylon/elastane warp-knit fabrics;
+- polyester/elastane technical fabrics;
+- engineered elastic textiles with characterized stretch and recovery;
+- zonally knitted or woven structures with differentiated elasticity.
 
-**Function:**  
-- Provides controlled spinal guidance  
-- Supports lumbar and thoracic regions  
-- Allows dynamic movement instead of rigid fixation  
+### Adjustment mechanisms
 
-**Proposed components:**
-- Flexible polymer support stays (TPU or PEEK-based)
-- Carbon fiber composite inserts (selective zones only)
-- Spring-steel micro-lamellae for adaptive resistance
+Baseline mechanisms may include:
 
-**Key principle:**  
-CORELINE avoids full rigidity. Instead, it uses **progressive resistance**, allowing natural motion while reducing harmful spinal loading.
+- mechanical tensioning straps;
+- low-profile hook-and-loop closures;
+- buckles or ladder-lock adjusters;
+- replaceable tensioning components.
 
----
+Future versions may investigate:
 
-### 3. Adaptive Compression Layer
+- micro-ratchet adjustment;
+- dial-based tensioning mechanisms; and
+- mechanically indexed tension control.
 
-**Function:**  
-- Applies adjustable compression
-- Enhances proprioceptive feedback
-- Stabilizes posture without discomfort
-
-**Proposed materials:**
-- Elastic warp-knit fabrics (nylon/spandex blends)
-- Medical-grade elastomers with controlled stretch ratios
-- Variable compression zones via zonal weaving
-
-**Adjustment mechanisms:**
-- Mechanical tensioning straps
-- Low-profile hook-and-loop systems
-- Future-ready dial or micro-ratchet systems (planned iteration)
+Any adjustment system should be evaluated for repeatability, accidental release,
+user accessibility, mechanical life, and pressure distribution.
 
 ---
 
-### 4. Internal Comfort & Breathability Layer
+## 4. Skin-Interface & Ventilation Layer
 
-**Function:**  
-- Skin contact comfort
-- Moisture control
-- Heat dissipation during long wear
+### Function
 
-**Proposed materials:**
-- 3D spacer mesh textiles
-- Bamboo fiber blends or TENCEL™ Lyocell
-- Antimicrobial-treated microfiber linings
+The innermost layer is intended to provide:
 
-**Ventilation strategy:**
-- Vertical airflow channels
-- Mesh perforation in heat-prone zones
-- Passive convection-assisted air circulation
+- skin-contact comfort;
+- moisture transport;
+- thermal management;
+- reduction of friction and chafing; and
+- separation between the user and structural components.
 
----
+### Candidate materials
 
-## Advanced Thermal & Weight Reduction Concepts (R&D)
+Potential materials include:
 
-CORELINE is actively researching the feasibility of incorporating **next-generation materials**:
+- 3D spacer mesh;
+- moisture-wicking polyester or polyamide textiles;
+- lyocell-containing textile blends;
+- other breathable skin-contact fabrics validated for repeated wear.
 
-### Aerogel-Enhanced Inserts (Experimental)
-- Ultra-light thermal regulation
-- Potential use in thin insulating zones
-- Requires cost and durability validation
+Antimicrobial finishes may be considered where appropriate, but should not
+replace hygiene, washability, or material-safety requirements.
 
-### Graphene-Infused Textiles (Exploratory)
-- Enhanced tensile strength
-- Antibacterial properties
-- Potential for future sensor conductivity
+### Ventilation strategy
 
-These materials are **not part of the initial production version**, but remain under evaluation for later iterations.
+Passive thermal management may use:
 
----
+- vertical or anatomically oriented airflow channels;
+- perforated or open-mesh zones;
+- reduced material thickness in high-heat areas; and
+- spacer structures that maintain an air gap between the body and outer layers.
 
-## Sensor & Electronics Integration (Future Architecture)
-
-Although the initial CORELINE version operates **without active sensors**, the design includes **pre-engineered integration pathways**:
-
-- Internal routing channels for wiring
-- Modular sensor mounting points
-- Detachable electronics compartments
-- EMI-safe material separation zones
-
-Planned sensor types (future editions):
-- IMU posture sensors
-- Pressure distribution sensors
-- Wear-time and movement analytics modules
-
-This ensures CORELINE evolves as a **platform**, not a one-off product.
+Ventilation geometry should ultimately be informed by wear testing and thermal
+measurements rather than assumed performance.
 
 ---
 
-## Sustainability & Manufacturing Considerations
+# Candidate Material Matrix
 
-CORELINE prioritizes:
-
-- Recyclable polymers where possible
-- Minimal material waste through pattern optimization
-- Supplier preference for certified textile manufacturers
-- Repairability over disposable construction
-
-Manufacturing methods under evaluation:
-- Industrial textile lamination
-- Injection-molded polymer components
-- Modular assembly to reduce tooling costs
+| Subsystem | Baseline candidates | Optional / research candidates | Primary evaluation criteria |
+|---|---|---|---|
+| Outer shell | High-tenacity polyester, nylon | Localized aramid reinforcement | Tear, abrasion, mass, durability |
+| Structural stays | TPU, spring steel, engineering thermoplastics | PEEK, fiber composites | Stiffness, fatigue, weight, cost |
+| Compression layer | Nylon/elastane, polyester/elastane | Zoned engineered textiles | Recovery, pressure distribution, durability |
+| Skin interface | Spacer mesh, moisture-wicking textiles | Specialized functional textiles | Comfort, moisture, thermal behavior |
+| Adjustment | Straps, hook-and-loop, buckles | Dial or micro-ratchet systems | Reliability, repeatability, serviceability |
 
 ---
 
-## Safety & Compliance Outlook
+# Mechanical Design Considerations
 
-Target compliance frameworks (future certification phase):
+Material selection should be evaluated at the **system level** rather than by
+comparing isolated material properties.
 
-- ISO 13485 (Medical Devices – Quality Management)
-- ISO 10993 (Biocompatibility)
-- CE marking (EU)
-- FDA Class I / II pathway assessment (USA)
+Important interactions include:
 
-Initial prototypes are intended for **non-medical wellness use**, with medical certification planned after validation studies.
+- structural-stay stiffness versus textile elasticity;
+- compression force versus interface pressure;
+- ventilation versus structural coverage;
+- reinforcement versus total mass;
+- stiffness versus freedom of movement;
+- durability versus repairability; and
+- material complexity versus manufacturing cost.
+
+A material with superior laboratory properties is not automatically the best
+choice if it increases discomfort, assembly complexity, cost, or failure risk.
 
 ---
 
-## Summary
+# Prototype Validation
 
-CORELINE Smart Corset materials are selected not for novelty, but for **measurable biomechanical performance, comfort, and future scalability**.
+Candidate materials and assemblies should progress through staged validation.
 
-This materials architecture enables:
-- Daily wear without fatigue
-- Athletic movement without restriction
-- Long-term spinal support without dependence
-- Seamless evolution toward smart wearable functionality
+## Material-level testing
 
-CORELINE is not just a corset — it is a **next-generation spinal support system** built on modern material science.
+Where applicable:
+
+- tensile testing;
+- tear testing;
+- abrasion testing;
+- cyclic stretch/recovery testing;
+- flex-fatigue testing;
+- compression-set testing;
+- moisture-management testing; and
+- accelerated aging.
+
+## Component-level testing
+
+Structural and adjustment components should be evaluated for:
+
+- bending stiffness;
+- elastic recovery;
+- permanent deformation;
+- fatigue life;
+- attachment-point failure;
+- closure-cycle durability; and
+- accidental release.
+
+## System-level testing
+
+Complete prototypes should be evaluated for:
+
+- fit consistency;
+- pressure distribution;
+- range of motion;
+- thermal comfort;
+- migration during movement;
+- donning and doffing;
+- adjustment repeatability;
+- perceived comfort; and
+- durability during representative use.
+
+Quantitative acceptance criteria should be defined before design verification.
+
+---
+
+# Advanced Materials Research
+
+The following technologies are considered **research candidates only** and are
+not part of the baseline material specification.
+
+## Aerogel-Based Components
+
+Potential applications may include localized thermal-management structures where
+extremely low-density insulation is beneficial.
+
+Before consideration for production, testing would need to address:
+
+- flex durability;
+- particle containment;
+- compression behavior;
+- moisture exposure;
+- integration into textile assemblies;
+- washability;
+- cost; and
+- supplier scalability.
+
+Because a wearable support device generally benefits from heat dissipation
+rather than insulation, aerogel should only be used where testing identifies a
+specific thermal requirement.
+
+---
+
+## Graphene-Modified Textiles
+
+Graphene-containing textiles may be investigated for specialized future
+functions such as:
+
+- conductive pathways;
+- strain-sensitive textile structures; or
+- experimental functional coatings.
+
+Claims regarding antimicrobial behavior, mechanical reinforcement, or other
+performance characteristics should not be assumed from the presence of graphene
+alone.
+
+Any proposed graphene-containing textile should be evaluated as a complete
+material system using supplier data and independent testing where appropriate.
+
+---
+
+# Sensor & Electronics Integration
+
+## Current architecture
+
+The baseline mechanical concept does **not require active electronics** to
+provide its intended structural function.
+
+However, future-ready prototypes may reserve integration features such as:
+
+- protected cable-routing channels;
+- modular sensor mounting locations;
+- detachable electronics compartments;
+- strain-relief points;
+- removable wiring harnesses; and
+- physical separation between structural and electronic subsystems.
+
+This approach allows the mechanical platform to be developed and validated
+independently from the electronics stack.
+
+## Candidate future sensing
+
+Potential future modules may investigate:
+
+- inertial measurement units (IMUs);
+- pressure or force sensing;
+- wear-time detection;
+- motion and posture-related measurements;
+- temperature and humidity sensing.
+
+These are **future development concepts**, not baseline product capabilities.
+
+Sensor-derived measurements should not be described as diagnostic or clinical
+outputs unless separately validated for that intended use.
+
+---
+
+# Electronics Integration Requirements
+
+Future electronics should be designed around:
+
+- removability before washing;
+- low-voltage operation;
+- protected connectors;
+- mechanical strain relief;
+- sweat and moisture exposure;
+- electromagnetic compatibility;
+- battery safety;
+- user-accessible replacement or charging;
+- minimal interference with flexibility and ventilation.
+
+Electronics modules should remain mechanically separable from the textile
+assembly wherever practical.
+
+---
+
+# Manufacturing Strategy
+
+The design should prioritize manufacturing processes that are repeatable,
+serviceable, and compatible with iterative prototyping.
+
+Candidate processes include:
+
+- industrial textile cutting;
+- CNC or automated pattern cutting;
+- technical sewing;
+- textile lamination where required;
+- heat bonding;
+- injection molding for production-scale polymer components;
+- additive manufacturing for prototype tooling and development parts; and
+- modular mechanical assembly.
+
+Early prototypes should favor processes that allow rapid geometry changes without
+requiring expensive permanent tooling.
+
+Production tooling should only be introduced after critical geometry and material
+interfaces have been validated.
+
+---
+
+# Design for Repairability
+
+Where practical, the product architecture should allow replacement of
+high-wear components such as:
+
+- straps;
+- closures;
+- structural stays;
+- padding or interface liners; and
+- future electronics modules.
+
+Permanent bonding should be avoided where it unnecessarily prevents inspection,
+repair, recycling, or component replacement.
+
+---
+
+# Sustainability Considerations
+
+Environmental decisions should be evaluated using measurable lifecycle tradeoffs
+rather than material labels alone.
+
+Design priorities include:
+
+- minimizing unnecessary material mass;
+- optimizing cutting patterns to reduce textile waste;
+- extending product life through replaceable components;
+- selecting durable materials appropriate to the required service life;
+- reducing unnecessary material combinations;
+- using recyclable or recycled materials where technically appropriate; and
+- selecting suppliers with documented quality and environmental controls.
+
+A durable product with replaceable wear components may provide greater lifecycle
+benefit than a nominally recyclable product with a short service life.
+
+---
+
+# Safety & Regulatory Considerations
+
+The regulatory pathway depends on the product's final intended use, claims,
+markets, and technical configuration.
+
+The current development concept should therefore distinguish between:
+
+1. a non-medical wellness/support product; and
+2. a future product that may pursue a defined medical-device indication.
+
+These pathways must not be treated as equivalent.
+
+## Potential future frameworks
+
+Depending on the final intended use and market, relevant frameworks may include:
+
+- ISO 13485 quality-management requirements for medical devices;
+- ISO 10993 biological evaluation where applicable;
+- applicable EU medical-device requirements if marketed as a medical device;
+- applicable U.S. FDA classification and regulatory requirements;
+- electrical and electromagnetic compatibility requirements for future
+  electronic versions; and
+- applicable textile, chemical, labeling, and consumer-product requirements.
+
+Specific regulatory classifications should be established through a formal
+regulatory assessment before medical claims or certification targets are stated.
+
+---
+
+# Material Documentation
+
+For each material incorporated into a controlled prototype or production build,
+the project should maintain, where applicable:
+
+- supplier and manufacturer;
+- commercial material designation;
+- composition;
+- thickness and/or areal density;
+- mechanical-property data;
+- lot or batch information;
+- relevant safety documentation;
+- certificates or declarations supplied by the manufacturer;
+- processing requirements;
+- revision status; and
+- internal test results.
+
+This information should eventually be linked to the project BOM and prototype
+revision history.
+
+---
+
+# Current Baseline vs. Future Research
+
+For clarity, the architecture should be interpreted as follows:
+
+| Category | Status |
+|---|---|
+| Layered textile construction | Baseline architecture |
+| Flexible structural stays | Baseline architecture |
+| Adjustable compression | Baseline architecture |
+| Breathable skin interface | Baseline architecture |
+| Modular/replaceable components | Design objective |
+| TPU structural components | Candidate baseline technology |
+| Spring-steel stays | Candidate baseline technology |
+| Carbon-fiber reinforcement | Optional / validation required |
+| PEEK components | Optional / validation required |
+| Aerogel components | Research only |
+| Graphene-modified textiles | Research only |
+| IMU / pressure sensing | Future architecture |
+| Active electronics | Future architecture |
+| Medical-device functionality | Not part of current baseline |
+
+---
+
+# Summary
+
+CORELINE's material architecture is based on four engineering functions:
+
+1. **load distribution;**
+2. **controlled structural support;**
+3. **adjustable compression;**
+4. **comfort and thermal management.**
+
+The development strategy prioritizes measurable system performance over the use
+of exotic materials.
+
+Advanced materials such as PEEK, carbon-fiber composites, aerogel, and
+graphene-modified textiles should be incorporated only when prototype testing
+demonstrates a clear functional advantage over simpler alternatives.
+
+The baseline architecture is intentionally designed so that mechanical support
+can be developed independently while preserving a modular pathway toward future
+sensor and electronics integration.
+
+---
+
+## Document Status
+
+**Status:** Development specification  
+**Product stage:** Prototype / R&D  
+**Medical claims:** None  
+**Material specification:** Subject to validation  
+**Electronics:** Future architecture  
+**Certification status:** Not certified
+
+---
+
+*This document describes an engineering concept under development. Material
+selection, performance characteristics, regulatory classification, and final
+product specifications may change as testing and validation progress.*
